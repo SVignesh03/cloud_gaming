@@ -1,0 +1,73 @@
+body {
+    background-image: url('BG.png');
+    background-size: cover; /* adjust to "contain" or specific dimensions as needed */
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+  }
+  
+  h2 {
+    color: #FFC0CB;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  form {
+    background-image: url('BGrain.gif');
+    background-size: cover; /* adjust to "contain" or specific dimensions as needed */
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-color: #ffffff; */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 300px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #FFC0CB;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;    
+    /* margin-left: 50%;
+    margin-right: 50%; */
+}
+
+  input[type="submit"]:hover {
+    background-color: #FF69B4;
+    color: #032e52;
+  }
+
+  .g-recaptcha {
+    display: flex;
+    color: #FFC0CB;
+    justify-content: center;
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,52 @@
+/* style.css */
+
+/* Reset some default styles for consistency */
+body, h2, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    background-color: #FF69B4;
+    color: #032e52;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-image: url('BGrain.gif');
+    background-size: cover; /* adjust to "contain" or specific dimensions as needed */
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-color: #fff; */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: #ffd900;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #032e52;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #FF69B4;
+}
